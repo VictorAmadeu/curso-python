@@ -9,6 +9,7 @@ Colección de ejercicios prácticos para aprender programación en Python.
 - [Uso](#uso)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Ejercicio 1: Primer script](#ejercicio-1-primer-script)
+- [Ejercicio 4: Formulario interactivo](#ejercicio-4-formulario-interactivo)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 - [Autor](#autor)
@@ -35,6 +36,7 @@ python clase-01/main.py
 
 ## Estructura del proyecto
 - `clase-01/` – conceptos básicos de Python.
+- `clase-04/` – prácticas con `print`, variables e `input`.
 - Se irán añadiendo nuevas carpetas a medida que avance el curso.
 
 ## Ejercicio 1: Primer script
@@ -47,6 +49,17 @@ El archivo `clase-01/main.py` introduce los conceptos básicos de Python:
 Para ejecutarlo:
 ```bash
 python clase-01/main.py
+```
+
+## Ejercicio 4: Formulario interactivo
+El script `clase-04/ejercicio_clase_04.py` permite practicar la interacción con el usuario:
+1. Solicita nombre, edad y peso, convirtiendo los valores numéricos a `int` o `float`.
+2. Pide la fecha de nacimiento y formatea el mes, aceptando números o nombres.
+3. Muestra la diferencia entre concatenar cadenas y sumar números.
+
+Para ejecutarlo:
+```bash
+python clase-04/ejercicio_clase_04.py
 ```
 
 ## Contribuciones
