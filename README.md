@@ -1,60 +1,59 @@
-# curso-python
+# Curso de Python
 
-Ejercicios de Python
+Colección de ejercicios prácticos para aprender programación en Python.
 
-## Autor
+## Tabla de contenidos
+- [Introducción](#introducción)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Ejercicio 1: Primer script](#ejercicio-1-primer-script)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
+- [Autor](#autor)
 
-Victor Amadeu Braga Heleno
+## Introducción
+Este repositorio forma parte de un curso de Python orientado a principiantes. Cada ejercicio aborda un concepto fundamental del lenguaje y está diseñado para ser ejecutado desde la línea de comandos.
 
-## Ejercicio 1
+## Requisitos
+- Python 3.8 o superior
+- Recomendado: entorno virtual y un editor de código como Visual Studio Code
 
-El ejercicio 1 se encuentra en `clase-01/main.py`.  
-Este ejercicio introduce los conceptos básicos de Python, incluyendo:
+## Instalación
+```bash
+git clone https://github.com/tu-usuario/curso-python.git
+cd curso-python
+```
 
-- Sintaxis fundamental
-- Variables y tipos de datos
-- Entrada y salida por consola
-
-Para ejecutarlo, utiliza el siguiente comando en el terminal:
+## Uso
+Para ejecutar un ejercicio, utiliza Python desde la raíz del proyecto. Por ejemplo, el primer ejercicio se encuentra en `clase-01/main.py`:
 
 ```bash
 python clase-01/main.py
 ```
 
-## Descripción
-
-Este proyecto contiene una colección de ejercicios prácticos para aprender y reforzar conocimientos de programación en Python. Los ejercicios están diseñados para cubrir conceptos básicos y avanzados del lenguaje.
-
 ## Estructura del proyecto
+- `clase-01/` – conceptos básicos de Python.
+- Se irán añadiendo nuevas carpetas a medida que avance el curso.
 
-- Cada ejercicio se encuentra en un archivo independiente.
-- Se incluyen ejemplos de uso y posibles soluciones.
-- El proyecto está organizado para facilitar el aprendizaje progresivo.
+## Ejercicio 1: Primer script
+El archivo `clase-01/main.py` introduce los conceptos básicos de Python:
+1. Muestra la versión de Python y la ruta del intérprete en uso.
+2. Imprime "Hola, mundo" y realiza operaciones aritméticas sencillas.
+3. Despliega el *Zen de Python* mediante la instrucción `import this`.
+4. Confirma que el script se ejecutó correctamente.
 
-## Requisitos
-
-- Python 3.8 o superior
-- Editor de código recomendado: Visual Studio Code
-
-## Cómo empezar
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/curso-python.git
-   ```
-2. Accede a la carpeta del proyecto:
-   ```bash
-   cd curso-python
-   ```
-3. Ejecuta los ejercicios con:
-   ```bash
-   python nombre_del_ejercicio.py
-   ```
+Para ejecutarlo:
+```bash
+python clase-01/main.py
+```
 
 ## Contribuciones
-
-Las contribuciones son bienvenidas. Puedes enviar tus propios ejercicios o mejoras mediante pull requests.
+Las contribuciones son bienvenidas. Si deseas colaborar, por favor abre un issue o envía un pull request con una descripción clara de la mejora propuesta.
 
 ## Licencia
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-Este proyecto está bajo la licencia
+## Autor
+Victor Amadeu Braga Heleno
