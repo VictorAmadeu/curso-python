@@ -10,6 +10,7 @@ Colección de ejercicios prácticos para aprender programación en Python.
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Ejercicio 1: Primer script](#ejercicio-1-primer-script)
 - [Ejercicio 4: Formulario interactivo](#ejercicio-4-formulario-interactivo)
+- [Ejercicio 5: Saludador interactivo](#ejercicio-5-saludador-interactivo)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 - [Autor](#autor)
@@ -37,7 +38,7 @@ python clase-01/main.py
 ## Estructura del proyecto
 - `clase-01/` – conceptos básicos de Python.
 - `clase-04/` – prácticas con `print`, variables e `input`.
-- Se irán añadiendo nuevas carpetas a medida que avance el curso.
+- `clase-05/` – programa de saludo interactivo con funciones.
 
 ## Ejercicio 1: Primer script
 El archivo `clase-01/main.py` introduce los conceptos básicos de Python:
@@ -61,6 +62,18 @@ Para ejecutarlo:
 ```bash
 python clase-04/ejercicio_clase_04.py
 ```
+
+## Ejercicio 5: Saludador interactivo
+El archivo `clase-05/ex001_saludador.py` presenta un saludo personalizado:
+1. Muestra "Hola, mundo" al iniciar el programa.
+2. Solicita un nombre válido, repitiendo hasta recibir uno no vacío.
+3. Construye y muestra un mensaje de bienvenida usando funciones dedicadas.
+
+Para ejecutarlo:
+```bash
+python clase-05/ex001_saludador.py
+```
+
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Si deseas colaborar, por favor abre un issue o envía un pull request con una descripción clara de la mejora propuesta.
